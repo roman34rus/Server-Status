@@ -13,19 +13,19 @@
 Список серверов загружается из CSV-файла.
 
 Формат файла: Location,Description,Name,Roles
-  Location - местоположение сервера
-  Description - понятное имя сервера
-  Name - DNS-имя или IP-адрес сервера
-  Roles - список ролей, разделенных пробелами (определяет что будет проверяться на этом сервере)
+- Location - местоположение сервера
+- Description - понятное имя сервера
+- Name - DNS-имя или IP-адрес сервера
+- Roles - список ролей, разделенных пробелами (определяет что будет проверяться на этом сервере)
 
 Возможные значения ролей:
-  windows
-  vmware_services
-  mssql_services
-  mstmg_services
-  surfcop_services
-  vcenter_alerts
-  pi_local_db
+- windows
+- vmware_services
+- mssql_services
+- mstmg_services
+- surfcop_services
+- vcenter_alerts
+- pi_local_db
 
 Результаты сохраняются в HTML-файл. Используется Bootstrap v3.3.5.
 
@@ -38,6 +38,6 @@
 
 # Использование
 
-Заполнить файл Servers.csv.
-Запустить файл Run_Script.cmd.
-Результат выполнения будет записан в файл HTML\server-status.html.
+- Заполнить файл Servers.csv.
+- Запустить файл Run_Script.cmd.
+- Результат выполнения будет записан в файл HTML\server-status.html.
