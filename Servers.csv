@@ -1,0 +1,5 @@
+﻿Location,Description,Name,Roles
+Office 1,vCenter,srv-01,windows vmware_services vcenter_alerts
+Office 1,vCenter SQL,srv-02,windows mssql_services
+Office 1,Horizon View,srv-03,windows vmware_services
+Office 2,TMG,srv-04,windows mstmg_services pi_local_db
